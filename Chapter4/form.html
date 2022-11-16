@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    <div>
+        <h1>
+            <center>
+                KPRIET form for DUBAI Trip
+        </h1>
+
+        <body bgcolor="ccffcc">
+            </center>
+            <hr color="blue">
+
+            <form action="form.php">
+                <fieldset>
+                    <legend align="top">Personal information </legend>
+                    1.Name:<input type="text" placeholder="Enter your name" size="20px">
+                    Father's Name:<input type="text" placeholder="Enter your Father's name" size="20px">
+                    Mother's Name:<input type="text" placeholder="Enter your Mother's name" size="20px"><br>
+                    2. Gender<label for="sectionida"><br>
+                        <input type="radio" value="Male" name="Gender" id="sectionida">M<br>
+                    </label>
+                    <label for="sectionidb">
+                        <input type="radio" value="Female" name="Gender" id="sectionidb">F<br>
+                    </label>
+                    <label for="sectionidc">
+                        <input type="radio" value="Others" name="Gender" id="sectionidc">Others<br>
+                    </label> 
+
+                    <label for="Age group3">2.Age group<br>
+                        <input type="radio" value="section3" name="section" id="Age group3">15-17 yrs
+                    </label>
+                    <label for="Age group4"><br>
+                        <input type="radio" value="section 4" name="section" id="Age group4">17-19 yrs <br>
+                        3.Personal Mobile No.:<input type="text" placeholder="+91xxxxxxxxxx" size="15px">
+                        4.E-mail:<input type="text" placeholder="xxxxxx@gmail.com" size="23px">
+
+                </fieldset>
+                </label>
+
+                <!-- <br> -->
+
+                <p>
+                    Blood Group :<select>
+                        <option value="A+">A+</option>
+                        <option value="B+" selected>B+</option>
+                        <option value="AB+">AB+</option>
+                        <option value="O+">O+</option>
+                        <option value="A-">A-</option>
+                        <option value="B-">B-</option>
+                    </select>
+                </p>
+                <!-- search for your queries -->
+                <!-- <iframe src="https://www.bing.com" frameborder="0" width="892px"></iframe> -->
+                <p>
+                    Department :<select>
+                        <option value="CSE">CSE</option>
+                        <option value="CE" selected>CE</option>
+                        <option value="BME">BME</option>
+                        <option value="ECE">ECE</option>
+                        <option value="AIML">AIML</option>
+                        <option value="EEE">EEE</option>
+                        <option value="IT">IT</option>
+                        <option value="MECH">MECH</option>
+                        <option value="CS-BS">CS-BS</option>
+                        <option value="AD">AD</option>
+
+
+                    </select>
+                </p>
+
+                5.Section: <br>
+                <label for="sectionida">
+                    <input type="radio" value="section a" name="section" id="sectionida">Section A <br>
+                </label>
+                <label for="sectionidb">
+                    <input type="radio" value="section b" name="section" id="sectionidb">Section B <br>
+                </label>
+                <label for="sectionidc">
+                    <input type="radio" value="section c" name="section" id="sectionidc">Section C <br>
+                    <label for="sectionidd">
+                        <input type="radio" value="section d" name="section" id="sectionidd">Section D <br>
+                        <br>
+                        *Note: Select section A if your department has only one section
+                    </label><br>
+                    <label for="foodcanteen1">4.Do you want canteen food ?<br>
+                        <input type="radio" value="section 1" name="canteen" id="foodcanteen1"> Yes
+                    </label>
+                    <label for="foodcanteen2"><br>
+                        <input type="radio" value="section 2" name="canteen" id="foodcanteen2"> No
+                    </label>
+                    <br>
+                    <textarea name="Explain" id="Explain" cols="30" rows="10"
+                        placeholder="Explain why you want to join"></textarea><br>
+                    <button>Submit</button>
+                    <button>Reset</button>
+
+
+            </form>
+    </div>
+</body>
+
+</html>
